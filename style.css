@@ -1,0 +1,121 @@
+div
+{
+    border-radius: 5px;
+}
+.izquierda
+ {
+    float: left;
+    width: 220px;
+     }
+.derecha
+     {
+        float: right;
+        width: 220px;
+         }
+div.side {
+    background-color: #448AFF;
+    -webkit-box-shadow: 12px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 12px 0px 5px 0px rgba(0,0,0,0.75);
+    width: 50%;
+    position: relative;
+    float: left;
+    color: #ffffff;
+}
+div.side1 {
+    background-color: #BDBDBD;
+    width: 50%;
+   -webkit-box-shadow: -12px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -12px 0px 5px 0px rgba(0,0,0,0.75);
+    float: left;
+        padding-bottom: 8px;
+
+}
+
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 100%;
+    background-color: #212121;
+    margin-bottom: 10px
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+#name.center{
+ color: #ffffff;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.right
+{
+    padding-bottom: 5px;
+    padding-left: 100px;
+    width: 100%
+    height: auto;
+    background-color: #212121;
+    color:#BDBDBD;
+    }
+
+#footer
+{
+    height:20px;
+    clear:both;
+    position: relative;
+    background-color: #616161;
+    color: #F5F5F5;
+    }
+
+h3
+{
+    text-decoration: underline;
+    }
+
+#job-responsibilities
+{
+    padding: 1px;
+    }
+.job-title
+{
+    font-weight: bold;
+    }
+table
+{
+    border: 1px dashed black;
+}
+td
+{
+    padding: 2px;
+    border: 1px ;
+    }
+
+#web-name
+{
+    font-weight:bold;
+    }
+
+#company-name
+{
+    height:2px;
+    text-decoration:underline;
+    }
+.job-duration
+{
+    float:right;
+    }
+#heading
+{
+    font-weight:bold;
+    }
